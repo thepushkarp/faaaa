@@ -33,7 +33,7 @@ export function FaaaButton() {
       aria-label="Play faaaa sound"
       onClick={handleClick}
       onPointerEnter={handlePointerEnter}
-      className="cursor-pointer select-none rounded-3xl bg-yellow-400 px-8 py-6 text-5xl font-black tracking-widest text-zinc-950 shadow-[0_8px_0_theme(colors.amber.600)] transition-all duration-75 hover:bg-yellow-300 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-yellow-400 active:translate-y-2 active:shadow-[0_0px_0_theme(colors.amber.600)] motion-safe:active:translate-y-2 sm:px-16 sm:py-10 sm:text-8xl"
+      className="size-48 cursor-pointer select-none rounded-full bg-red-600 text-3xl font-black tracking-widest text-white shadow-[0_10px_0_theme(colors.red.900)] transition-all duration-75 hover:bg-red-500 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red-500 active:translate-y-2.5 active:shadow-[0_0px_0_theme(colors.red.900)] motion-safe:active:translate-y-2.5 sm:size-72 sm:text-6xl"
       style={{ touchAction: "manipulation" }}
     >
       FAAAA
